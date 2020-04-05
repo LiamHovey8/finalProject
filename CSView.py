@@ -1,7 +1,7 @@
 """
 Name: Liam Hovey
 SN: 040774944
-Assignment 3
+Final Project
 """
 import tkinter.scrolledtext
 
