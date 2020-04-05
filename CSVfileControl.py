@@ -43,6 +43,7 @@ def load_all_from_csv():
     print("this program made by Liam Hovey SN 040774944")
 
 
+# returns an array that is a single column of the total dataset
 def get_array_of_column(column):
     arrayOfColumn = []
     for x in arrayOfRows:
@@ -93,6 +94,7 @@ def get_unique_values(column):
     return list_of_unique_values
 
 
+# loops thorough a set and finds how many times a value is found
 def number_of_value_in_set(column, value_number):
     i = 0
     full_set = get_array_of_column(column)
@@ -113,6 +115,7 @@ def make_chart_string(column):
     return bar_graph
 
 
+# returns the percentage of a value in a column
 def get_percentage(column, value_number):
     return 100 * number_of_value_in_set(column, value_number) / len(get_array_of_column(column))
 

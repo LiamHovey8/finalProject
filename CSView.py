@@ -13,7 +13,7 @@ from tkinter import ttk
 
 CSVfileControl.load_all_from_csv()
 window = Tk()
-window.title("CSV File Reader")
+window.title("CSV File Reader-Liam Hovey 040774944")
 window.geometry('1200x650')
 tab_control = ttk.Notebook(window)
 tab1 = ttk.Frame(tab_control)
